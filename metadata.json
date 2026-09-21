@@ -1,0 +1,6 @@
+{
+  "name": "Fleur de l'Automne - L'Espace Puravida",
+  "description": "Mini-questionnaire en 1 minute pour trouver la fleur de Bach ou l'élixir floral idéal pour votre rentrée et saison automnale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

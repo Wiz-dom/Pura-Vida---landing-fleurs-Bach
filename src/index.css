@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Work Sans', system-ui, -apple-system, sans-serif;
+  --color-puravida-primary: #0906af;
+  --color-puravida-hover: #08059d;
+  --color-puravida-green: #059669;
+  --color-puravida-green-light: #07db75;
+  --color-puravida-orange: #f86300;
+  --color-puravida-dark: #2B2B2B;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
