@@ -11,22 +11,22 @@ export const PROMO_TEXT = 'Remise 5% avec le code RYMXN • Livraison Offerte d�
 export const RATING_OPTIONS: { value: RatingValue; label: string; description: string }[] = [
   {
     value: 0,
-    label: "Pas du tout d'accord",
-    description: "Je ne ressens pas du tout cela en ce moment",
+    label: "Pas du tout",
+    description: "Je ne ressens pas cela en ce moment",
   },
   {
     value: 1,
-    label: "Un peu d'accord",
-    description: "Cela m'arrive ponctuellement",
+    label: "Un peu",
+    description: "Cela m'arrive ponctuellement ou légèrement",
   },
   {
     value: 2,
-    label: "Moyennement d'accord",
-    description: "Cela correspond assez bien à mon état",
+    label: "Moyennement",
+    description: "Cela correspond assez bien à mon état actuel",
   },
   {
     value: 3,
-    label: "Tout à fait d'accord",
+    label: "Tout à fait",
     description: "C'est exactement ce que je vis en ce moment",
   },
 ];
@@ -37,7 +37,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     groupName: 'Groupe A',
     statement: "Je ressens une tristesse ou une mélancolie soudaine que je n'arrive pas à expliquer.",
     flowerName: 'La Moutarde',
-    flowerSubtitle: 'Mustard (Sinapis arvensis) • Fleur de Bach Deva',
+    flowerSubtitle: 'Mustard (Sinapis arvensis) • Fleur de Bach Deva Sans Alcool 30ml',
     benefitShort: 'Pour chasser le blues et retrouver votre lumière.',
     tagline: 'Dissipe les nuages sombres et restaure la joie intérieure',
     emotionalState:
@@ -60,9 +60,9 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 'B',
     groupName: 'Groupe B',
-    statement: "J'ai du mal à prendre le pli et à m'adapter au nouveau rythme de cette saison.",
+    statement: "J'ai du mal à m'adapter au nouveau rythme et aux changements de cette saison.",
     flowerName: 'Le Noyer',
-    flowerSubtitle: 'Walnut (Juglans regia) • Fleur de Bach originelle',
+    flowerSubtitle: 'Walnut (Juglans regia) • Fleur de Bach Deva Sans Alcool 30ml',
     benefitShort: 'Pour accepter le changement de rythme en douceur.',
     tagline: 'L’allié des transitions et du nouveau départ serein',
     emotionalState:
@@ -79,15 +79,15 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     accentColor: '#059669',
     badgeBg: '#ECFDF5',
     badgeText: '#065F46',
-    imageUrl: 'https://media.cdnws.com/_i/333163/2170/2956/71/noyer-walnut-fleur-de-bach-15ml.png',
-    productUrl: 'https://magasin.espacepuravida.fr/elixirs-floraux/fleurs-de-bach-avec-alcool-1/noyer-walnut.html',
+    imageUrl: 'https://media.cdnws.com/_i/333163/377/3774/80/noyer-walnut-fleur-de-bach-deva-30ml-sans-alcool.png',
+    productUrl: 'https://magasin.espacepuravida.fr/elixirs-floraux/fleurs-de-bach-sans-alcool/noyer-walnut-fleur-de-bach-sans-alcool-30ml.html',
   },
   {
     id: 'C',
     groupName: 'Groupe C',
     statement: "Les actualités mondiales (peur de la guerre, climat social) me stressent et l'anxiété collective me gagne.",
     flowerName: 'Le Trèfle Rouge',
-    flowerSubtitle: 'Red Clover (Trifolium pratense) • Élixir Floral Contemporain Deva',
+    flowerSubtitle: 'Red Clover (Trifolium pratense) • Élixir Floral Deva Sans Alcool 30ml',
     benefitShort: "Pour faire bouclier contre l'angoisse collective de la guerre.",
     tagline: 'Le bouclier psychique face à la panique ambiante',
     emotionalState:
@@ -112,7 +112,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     groupName: 'Groupe D',
     statement: "Je me sens totalement vidé(e) d'énergie, épuisé(e) physiquement ou mentalement.",
     flowerName: "L'Olivier",
-    flowerSubtitle: 'Olive (Olea europaea) • Fleur de Bach Deva',
+    flowerSubtitle: 'Olive (Olea europaea) • Fleur de Bach Deva Sans Alcool 30ml',
     benefitShort: 'Pour recharger vos batteries à plat et régénérer votre énergie vitale.',
     tagline: 'Régénération vitale et récupération profonde en automne',
     emotionalState:
@@ -137,7 +137,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     groupName: 'Groupe E',
     statement: "Je suis à fleur de peau, irritable, et la moindre petite contrariété me fait réagir excessivement.",
     flowerName: 'La Camomille',
-    flowerSubtitle: 'Chamomile (Matricaria recutita) • Élixir Floral Deva',
+    flowerSubtitle: 'Chamomile (Matricaria recutita) • Élixir Floral Deva Sans Alcool 30ml',
     benefitShort: "Pour apaiser les nerfs et l'hypersensibilité.",
     tagline: 'Apaisement nerveux immédiat et sérénité émotionnelle',
     emotionalState:

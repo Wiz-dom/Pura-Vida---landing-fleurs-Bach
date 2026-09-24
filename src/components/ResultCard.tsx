@@ -152,10 +152,10 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onRetake }) => {
                     href={primary.productUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-500 hover:text-[#0906af] transition-colors"
+                    className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-600 hover:text-[#0906af] bg-white px-2.5 py-1 rounded-md border border-slate-200 transition-colors shadow-2xs"
                   >
-                    <span>Fiche flacon Puravida</span>
-                    <ExternalLink className="w-3 h-3" />
+                    <span>Fiche flacon sans alcool</span>
+                    <ExternalLink className="w-3 h-3 text-[#0906af]" />
                   </a>
                 </div>
               </div>
@@ -229,10 +229,10 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onRetake }) => {
                     href={secondary.productUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-500 hover:text-emerald-700 transition-colors"
+                    className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-600 hover:text-emerald-700 bg-white px-2.5 py-1 rounded-md border border-slate-200 transition-colors shadow-2xs"
                   >
-                    <span>Fiche flacon Puravida</span>
-                    <ExternalLink className="w-3 h-3" />
+                    <span>Fiche flacon sans alcool</span>
+                    <ExternalLink className="w-3 h-3 text-emerald-700" />
                   </a>
                 </div>
               </div>
@@ -388,6 +388,17 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onRetake }) => {
                           Fleur 2
                         </span>
                       )}
+                      <div className="mt-2 pt-1 border-t border-slate-100">
+                        <a
+                          href={q.productUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-0.5 text-[10px] font-medium text-slate-500 hover:text-[#0906af] transition-colors"
+                        >
+                          <span>Fiche sans alcool</span>
+                          <ExternalLink className="w-2.5 h-2.5" />
+                        </a>
+                      </div>
                     </div>
                   );
                 })}
