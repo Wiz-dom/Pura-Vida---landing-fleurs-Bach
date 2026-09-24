@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
                 referrerPolicy="no-referrer"
               />
               <span className="font-serif text-xl font-bold tracking-tight text-white">
-                L’Espace Puravida
+                L’Espace Pura Vida
               </span>
             </div>
             <p className="text-xs sm:text-sm text-slate-400 max-w-md leading-relaxed">
@@ -61,7 +61,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="#trust-section" className="hover:text-white transition-colors">
-                  Pourquoi Puravida ?
+                  Pourquoi Pura Vida ?
                 </a>
               </li>
               <li>
@@ -98,7 +98,7 @@ export const Footer: React.FC = () => {
         {/* Bottom copyright */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 pt-2">
           <div>
-            © {new Date().getFullYear()} L'Espace Puravida. Tous droits réservés.
+            © {new Date().getFullYear()} L'Espace Pura Vida. Tous droits réservés.
           </div>
           <div className="flex items-center gap-1">
             <span>Fait avec bienveillance pour votre équilibre naturel</span>

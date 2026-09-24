@@ -33,7 +33,7 @@ export const Header: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 group"
-          title="Aller sur la boutique Espace Puravida"
+          title="Aller sur la boutique Espace Pura Vida"
         >
           <img
             src={PURAVIDA_LOGO_URL}
@@ -63,7 +63,7 @@ export const Header: React.FC = () => {
             className="hidden md:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-xs font-medium text-slate-700 hover:text-[#0906af] border border-slate-200 hover:border-[#0906af]/40 transition-colors"
           >
             <ShoppingBag className="w-3.5 h-3.5 text-[#0906af]" />
-            <span>Boutique Puravida</span>
+            <span>Boutique Pura Vida</span>
             <ExternalLink className="w-3 h-3 opacity-60" />
           </a>
         </div>

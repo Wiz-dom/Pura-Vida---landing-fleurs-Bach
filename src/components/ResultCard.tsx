@@ -28,7 +28,7 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onRetake }) => {
   const [copied, setCopied] = useState<boolean>(false);
 
   const handleShare = () => {
-    const textToShare = `Mon duo floral d'automne sur L'Espace Puravida : ${primary.flowerName} & ${secondary.flowerName}.\nConseils personnalisés au ${ADVISOR_PHONE}.\nFaites le test : ${window.location.href}`;
+    const textToShare = `Mon duo floral d'automne sur L'Espace Pura Vida : ${primary.flowerName} & ${secondary.flowerName}.\nConseils personnalisés au ${ADVISOR_PHONE}.\nFaites le test : ${window.location.href}`;
     if (navigator.clipboard) {
       navigator.clipboard.writeText(textToShare);
       setCopied(true);
@@ -46,7 +46,7 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onRetake }) => {
       >
         {/* Main Result Card */}
         <div className="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden relative">
-          {/* Top banner bar with Puravida brand blue */}
+          {/* Top banner bar with Pura Vida brand blue */}
           <div className="bg-gradient-to-r from-[#0906af] via-[#10333F] to-[#0906af] text-white px-6 py-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div className="flex items-center gap-3">
               <span className="text-2xl">🌿</span>
@@ -71,7 +71,7 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onRetake }) => {
             {/* Header intro */}
             <div className="text-center max-w-2xl mx-auto mb-10">
               <span className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#0906af]/10 text-[#0906af] mb-2">
-                Conseil & Recommandation Puravida
+                Conseil & Recommandation Pura Vida
               </span>
               <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-slate-900 font-bold">
                 Vos 2 élixirs floraux complémentaires
@@ -445,7 +445,7 @@ export const ResultCard: React.FC<ResultCardProps> = ({ result, onRetake }) => {
           </div>
           <div>
             <h4 className="font-serif text-base font-bold text-slate-900">
-              L'accompagnement et la garantie de L'Espace Puravida
+              L'accompagnement et la garantie de L'Espace Pura Vida
             </h4>
             <p className="text-xs sm:text-sm text-slate-600 mt-1">
               Tous nos élixirs floraux respectent les solarisations originelles du Dr Bach et les normes du laboratoire Deva. Notre conseillère vous oriente gratuitement vers le dosage et le mode de prise les plus adaptés à vos journées au <strong>{ADVISOR_PHONE}</strong>.

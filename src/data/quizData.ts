@@ -207,7 +207,7 @@ export const PURAVIDA_TRUST_POINTS = [
   {
     title: 'Conseillère Professionnelle Dédiée',
     description:
-      'L’Espace Puravida vous accompagne dans le choix de vos synergies avec un conseil téléphonique bienveillant au 07 49 21 82 42.',
+      'L’Espace Pura Vida vous accompagne dans le choix de vos synergies avec un conseil téléphonique bienveillant au 07 49 21 82 42.',
     icon: 'HeartHandshake',
   },
   {
@@ -242,7 +242,7 @@ export const FAQ_ITEMS = [
   {
     question: "Y a-t-il des versions sans alcool disponibles ?",
     answer:
-      "Oui ! L'Espace Puravida propose les élixirs originels avec alcool ainsi que des versions sans alcool (Deva) pour les enfants, femmes enceintes ou personnes sensibles, disponibles sur notre boutique en ligne.",
+      "Oui ! L'Espace Pura Vida propose les élixirs originels avec alcool ainsi que des versions sans alcool (Deva) pour les enfants, femmes enceintes ou personnes sensibles, disponibles sur notre boutique en ligne.",
   },
 ];
 
@@ -252,7 +252,7 @@ export const CLIENT_TESTIMONIALS = [
     city: 'Lyon',
     date: 'Octobre 2025',
     flower: 'Le Noyer',
-    text: "Chaque automne est une épreuve pour mon moral avec les jours qui déclinent. Sur recommandation de l'Espace Puravida, j'ai pris Le Noyer : la transition s'est faite avec une douceur incroyable.",
+    text: "Chaque automne est une épreuve pour mon moral avec les jours qui déclinent. Sur recommandation de l'Espace Pura Vida, j'ai pris Le Noyer : la transition s'est faite avec une douceur incroyable.",
     rating: 5,
   },
   {

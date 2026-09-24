@@ -58,7 +58,7 @@ export const QuizContainer: React.FC<QuizContainerProps> = ({
               De quel élixir floral avez-vous le plus besoin ?
             </h2>
             <p className="text-sm text-slate-600 mt-1">
-              À quel point vous reconnaissez-vous en ce moment ? Pour chaque proposition, notez de <span className="font-bold text-[#0906af]">0 à 3</span> votre ressenti émotionnel.
+              Pour chaque proposition, notez de <span className="font-bold text-[#0906af]">0 à 3</span> votre ressenti émotionnel.
             </p>
           </div>
 

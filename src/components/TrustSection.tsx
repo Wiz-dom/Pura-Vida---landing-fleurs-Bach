@@ -10,10 +10,10 @@ export const TrustSection: React.FC = () => {
         <div className="text-center max-w-2xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#0906af] mb-2">
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-            <span>L’Excellence Florale Puravida</span>
+            <span>L’Excellence Florale Pura Vida</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl text-slate-900 font-bold">
-            Pourquoi faire confiance à L’Espace Puravida ?
+            Pourquoi faire confiance à L’Espace Pura Vida ?
           </h2>
           <p className="text-sm sm:text-base text-slate-600 mt-3">
             Depuis notre boutique dédiée au bien-être holistique, nous sélectionnons des élixirs floraux d’une pureté biologique irréprochable certifiés selon la méthode originelle.
@@ -106,7 +106,7 @@ export const TrustSection: React.FC = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-[#0906af] hover:text-[#08059d] transition-colors"
             >
-              <span>Découvrir tous les avis et produits sur l'Espace Puravida ➔</span>
+              <span>Découvrir tous les avis et produits sur l'Espace Pura Vida ➔</span>
             </a>
           </div>
         </div>

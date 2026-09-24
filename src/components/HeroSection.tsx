@@ -89,7 +89,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onStartQuiz }) => {
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/20 to-transparent flex items-end p-4 sm:p-6 text-white text-left">
             <div>
               <span className="text-xs uppercase tracking-wider font-bold text-amber-300 block">
-                Harmonie Automnale • L'Espace Puravida
+                Harmonie Automnale • L'Espace Pura Vida
               </span>
               <p className="font-serif text-base sm:text-lg italic text-slate-50">
                 « La nature nous offre à chaque saison la réponse végétale à nos états d'âme. »
